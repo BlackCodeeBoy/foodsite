@@ -2,7 +2,7 @@
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(255, 196, 0);;
+    background-color: rgb(255, 145, 0);
 }
 nav{
     display:flex;
@@ -12,7 +12,7 @@ nav{
 }
 
 #pg1{
-    background-image: url(imgs/page1.jpg);
+    background-image: url(imgs/main1.png);
     margin:2vh;
     padding:50vh;
     background-size:cover;
@@ -22,19 +22,30 @@ nav{
 
 #pg1 h1{
     position:absolute;
-    color:rgb(255, 196, 0);
+    color:rgb(255, 145, 0);
     font-size: 5rem;
     margin:-17rem 2rem 0rem 30rem;
 
 }
 #pg1 h3{
     position:absolute;
-    background-color:rgb(41, 41, 41);
+    background-color:#862d1b;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 30px;
     margin:2rem 5rem 0rem 30rem;
     padding: 2rem;
 
-    color:rgb(255, 196, 0);
+    color:rgb(255, 145, 0);
+
+}
+#pg2{
+    margin:5rem;
+    padding:10rem,5rem,10rem,5rem;
+    display:flex;
+    /* justify-content: center; */
+    justify-content: space-evenly
+}
+.textmid{
+    text-align: center;
 
 }
